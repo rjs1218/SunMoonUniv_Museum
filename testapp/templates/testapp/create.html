@@ -1,0 +1,12 @@
+{% load bootstrap4 %}
+
+<div style="text-align: center;">
+    <div>
+        <h1>OCR TEST</h1>
+    </div>
+    <form action="{% url 'testapp:create' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        <input type="submit" class="btn btn-dark rounded-pill col-6 mt-3">
+    </form>
+</div>
