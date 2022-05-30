@@ -22,3 +22,6 @@ def HelloView(request):
 
 def GroupView(request):
     return render(request, 'siteapp/group.html')
+
+def GuideFacilityView(request):
+    return render(request, 'siteapp/guide_facility.html')
