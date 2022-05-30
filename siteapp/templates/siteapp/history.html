@@ -4,13 +4,13 @@
 {% block content %}
     <div style="text-align: center; max-width: 700px; margin: 4rem auto;">
         <div>
-            <h1>
+            <h1 style="text-align: left;">
                 연혁
             </h1>
         </div>
 
         <div>
-          <table class="table" style="margin: 3rem auto;">
+          <table class="table table-bordered" style="margin: 3rem auto; font-size: 1.4vw;">
             <thead>
               <tr>
                 <th scope="col">날짜</th>
@@ -18,12 +18,12 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                {% for history in history.all %}
+              {% for history in history.all reversed %}
+              <tr style="text-align: left;">
                 <td>{{ history.date }}</td>
                 <td>{{ history.content }}</td>
-                {% endfor %}
               </tr>
+              {% endfor %}
             </tbody>
           </table>
         </div>
