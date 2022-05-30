@@ -25,3 +25,6 @@ def GroupView(request):
 
 def GuideFacilityView(request):
     return render(request, 'siteapp/guide_facility.html')
+
+def GuideDonationView(request):
+    return render(request, 'siteapp/guide_donation.html')
