@@ -13,3 +13,6 @@ def IntroductionHistoryView(request):
         'history': history,
     }
     return HttpResponse(template.render(context, request))
+
+def MainView(request):
+    return render(request, 'siteapp/main.html')
