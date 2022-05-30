@@ -28,3 +28,6 @@ def GuideFacilityView(request):
 
 def GuideDonationView(request):
     return render(request, 'siteapp/guide_donation.html')
+
+def GuideWatchView(request):
+    return render(request, 'siteapp/guide_watch.html')
