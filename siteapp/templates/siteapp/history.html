@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div style="text-align: center; max-width: 700px; margin: 4rem auto;">
+        <div>
+            <h1>
+                연혁
+            </h1>
+        </div>
+
+        <div>
+          <table class="table" style="margin: 3rem auto;">
+            <thead>
+              <tr>
+                <th scope="col">날짜</th>
+                <th scope="col">행사내용</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                {% for history in history.all %}
+                <td>{{ history.date }}</td>
+                <td>{{ history.content }}</td>
+                {% endfor %}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+    </div>
+{% endblock %}

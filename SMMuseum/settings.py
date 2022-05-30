@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'bootstrap4',
     'testapp',
     'exhibition_workapp',
+    'siteapp',
 ]
 
 MIDDLEWARE = [
