@@ -16,3 +16,6 @@ def IntroductionHistoryView(request):
 
 def MainView(request):
     return render(request, 'siteapp/main.html')
+
+def HelloView(request):
+    return render(request, 'siteapp/hello.html')
