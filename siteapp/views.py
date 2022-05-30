@@ -19,3 +19,6 @@ def MainView(request):
 
 def HelloView(request):
     return render(request, 'siteapp/hello.html')
+
+def GroupView(request):
+    return render(request, 'siteapp/group.html')
