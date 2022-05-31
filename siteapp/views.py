@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
+from SMMuseum import settings
 
 from siteapp.models import Introduction_history
 
@@ -22,6 +23,13 @@ def HelloView(request):
 
 def GroupView(request):
     return render(request, 'siteapp/group.html')
+
+def RouteView(request):
+    template = loader.get_template('siteapp/route.html')
+    context = {
+        'api_key': settings.KAKAO_MAP_API_KEY
+    }
+    return HttpResponse(template.render(context, request))
 
 def GuideFacilityView(request):
     return render(request, 'siteapp/guide_facility.html')
