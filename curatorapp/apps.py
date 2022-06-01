@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ExhibitionWorkappConfig(AppConfig):
+class CuratorappConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'exhibition_workapp'
+    name = 'curatorapp'
