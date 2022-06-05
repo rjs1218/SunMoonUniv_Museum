@@ -48,8 +48,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap4',
     'testapp',
-    'exhibition_workapp',
     'siteapp',
+    'curatorapp',
 ]
 
 MIDDLEWARE = [

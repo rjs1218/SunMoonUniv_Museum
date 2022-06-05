@@ -4,9 +4,15 @@
 {% block content %}
 
 <div>
-    <a href="{% url 'exhibition_workapp:detail' pk=1 %}">
-        <span>작품설명란</span>
-    </a>
+        <a href="{% url 'curatorapp:permanent_list' %}">
+                성설전시실
+        </a>
+        <a href="{% url 'curatorapp:bible_list' %}">
+                성서전시실
+        </a>
+        <a href="{% url 'curatorapp:special_list' %}">
+                특별전시실
+        </a>
 </div>
 
 {% endblock %}
