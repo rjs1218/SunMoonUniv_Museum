@@ -9,21 +9,21 @@ class PermanentListView(ListView):
     model = Permanent
     context_object_name = 'permanent_list'
     template_name = 'curatorapp/permanent_list.html'
-    paginate_by = 4
+    paginate_by = 8
 
 
 class BibleListView(ListView):
     model = Bible
     context_object_name = 'bible_list'
     template_name = 'curatorapp/bible_list.html'
-    paginate_by = 4
+    paginate_by = 8
 
 
 class SpecialListView(ListView):
     model = Special
     context_object_name = 'special_list'
     template_name = 'curatorapp/special_list.html'
-    paginate_by = 4
+    paginate_by = 8
 
 
 # 작품 설명
