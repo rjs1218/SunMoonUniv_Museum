@@ -25,3 +25,6 @@ newenv/
 media/
 
 test.py
+
+node_modules/
+.sass-cache
