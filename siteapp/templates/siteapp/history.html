@@ -9,10 +9,10 @@
   }
 
   h1 {
-        margin: 5rem auto;
-        text-align: left;
-        font-size: 10vw;
-    }
+    margin: 10rem auto;
+    text-align: left;
+    font-size: 10vw;
+  }
 
   table {
     text-align: left;
@@ -20,34 +20,33 @@
     font-size: 3vw;
     max-width: 840px;
   }
-
 </style>
 
-    <div>
-        <div>
-          <h1>
-            연혁
-        </h1>
-        </div>
+<div>
+  <div>
+    <h1>
+      연혁
+    </h1>
+  </div>
 
-        <div style="margin-bottom: 10rem;">
-          <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th scope="col">날짜</th>
-                <th scope="col">행사내용</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for history in history.all reversed %}
-              <tr>
-                <td>{{ history.date }}</td>
-                <td>{{ history.content }}</td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
-        
-    </div>
+  <div style="margin-bottom: 10rem;">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">날짜</th>
+          <th scope="col">행사내용</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for history in history.all reversed %}
+        <tr>
+          <td>{{ history.date }}</td>
+          <td>{{ history.content }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
 {% endblock %}
