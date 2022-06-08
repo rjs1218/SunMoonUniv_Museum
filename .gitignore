@@ -30,3 +30,5 @@ node_modules/
 .sass-cache
 
 Dockerfile
+
+nginx.conf
