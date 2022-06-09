@@ -23,7 +23,7 @@ SECRET_KEY = read_secret('DJANGO_SECRET_KEY')
 KAKAO_MAP_API_KEY = read_secret('KAKAO_MAP_API_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
