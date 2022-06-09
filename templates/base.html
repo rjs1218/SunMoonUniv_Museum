@@ -2,14 +2,18 @@
 <html lang="ko">
 
 {% include 'head.html' %}
+<style>
+section {
+    padding-top: 100px; padding-bottom: 150px;
+  }
+</style>
 
-
-<body style="font-family: 'SUN_MOON_UNIVERSITY';">
+<section style="font-family: 'SUN_MOON_UNIVERSITY';">
     {% include 'header.html' %}
     
     {% block content %}
     {% endblock %}
 
     {% include 'footer.html' %}
-</body>
+</section>
 </html>

@@ -3,17 +3,17 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100px;
+    height: 130px;
     width: 100%;
     background-color: #F7FCFE;
   }
 </style>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="{% url 'siteapp:main' %}" style="font-size: 4vw;">선문대학교</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #F7FCFE;">
+    <a class="navbar-brand" href="{% url 'siteapp:main' %}" style="font-size: 6vw;">선문대학교</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="transform: scale(2.2);">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -21,33 +21,33 @@
         <!-- 소개 -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false" style="font-size: 3vw;">
+            aria-haspopup="true" aria-expanded="false" style="font-size: 4.5vw;">
             소개
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{% url 'siteapp:hello' %}" style="font-size: 2.5vw;">인사말</a>
-            <a class="dropdown-item" href="{% url 'siteapp:history' %}" style="font-size: 2.5vw;">연혁</a>
-            <a class="dropdown-item" href="{% url 'siteapp:group' %}" style="font-size: 2.5vw;">조직도</a>
-            <a class="dropdown-item" href="{% url 'siteapp:route' %}" style="font-size: 2.5vw;">찾아오시는 길</a>
+            <a class="dropdown-item" href="{% url 'siteapp:hello' %}" style="font-size: 3vw;">인사말</a>
+            <a class="dropdown-item" href="{% url 'siteapp:history' %}" style="font-size: 3vw;">연혁</a>
+            <a class="dropdown-item" href="{% url 'siteapp:group' %}" style="font-size: 3vw;">조직도</a>
+            <a class="dropdown-item" href="{% url 'siteapp:route' %}" style="font-size: 3vw;">찾아오시는 길</a>
           </div>
         </li>
         <!-- 안내 -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false" style="font-size: 3vw;">
+            aria-haspopup="true" aria-expanded="false" style="font-size: 4.5vw;">
             안내
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{% url 'siteapp:guide_watch' %}" style="font-size: 2.5vw;">관람</a>
-            <a class="dropdown-item" href="{% url 'siteapp:guide_facility' %}" style="font-size: 2.5vw;">시설</a>
-            <a class="dropdown-item" href="{% url 'siteapp:guide_donation' %}" style="font-size: 2.5vw;">기증</a>
+            <a class="dropdown-item" href="{% url 'siteapp:guide_watch' %}" style="font-size: 3vw;">관람</a>
+            <a class="dropdown-item" href="{% url 'siteapp:guide_facility' %}" style="font-size: 3vw;">시설</a>
+            <a class="dropdown-item" href="{% url 'siteapp:guide_donation' %}" style="font-size: 3vw;">기증</a>
           </div>
         </li>
         <!-- 커뮤니티 -->
         <li class="nav-item">
           <a class="nav-link active" aria-current="page"
             href="https://museum.sunmoon.ac.kr/html/community/community01.asp" target="_blank"
-            style="font-size: 3vw;">커뮤니티</a>
+            style="font-size: 4.5vw;">커뮤니티</a>
           <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">박물관소식</a>
                         <a class="dropdown-item" href="#">관람후기</a>
