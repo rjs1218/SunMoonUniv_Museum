@@ -7,8 +7,8 @@
   * [프로젝트 기획](#프로젝트-기획)
   * [주요 기능](#주요-기능)
     + [기존 웹과 차이점](#기존-웹과-차이점)
-    + [Web Flow](#web-flow)
     + [홈페이지](#홈페이지)
+    + [Web Flow](#web-flow)
   * [적용 기술](#적용-기술)
   * [배운 점](#배운-점)
   * [느낀 점](#느낀-점)
@@ -46,16 +46,6 @@ PC웹을 바탕으로 모바일 웹에 여러 기능을 넣어 학교 커뮤니�
 - QR 코드 제공<br>
 --> 기존 웹보다 접근성을 높였습니다.
 
-### Web Flow
-<img title="작품" src="https://user-images.githubusercontent.com/95990765/173964435-619a2e25-9b62-4258-ab54-26052adeb718.png" width="40%" height="40%"></img><br><br>
-
-<img title="안내" src="https://user-images.githubusercontent.com/95990765/173964440-95fa87c4-9eb8-438b-898f-a0bb8ff1b6dd.png" width="40%" height="40%"></img><br><br>
-
-<img title="소개" src="https://user-images.githubusercontent.com/95990765/173964445-8232b2f0-6f96-4934-9e48-131a8276bd35.png" width="40%" height="40%"></img><br><br>
-
-<img title="어드민" src="https://user-images.githubusercontent.com/95990765/173964426-2b5a999e-e3f2-45e2-b0b1-51f8825e5e19.png" width="20%" height="20%"></img><br>
-__어드민 페이지에서 연혁, 작품 데이터 처리가 가능합니다.__<br><br>
-
 ### 홈페이지
 <img title="QRcode" src="https://user-images.githubusercontent.com/95990765/173831231-5a86e77f-6d38-45b4-8970-d953971cac34.png" width="20%" height="20%"></img><br>
 __Main 홈페이지로 연결되는 QR코드입니다.__<br><br>
@@ -68,6 +58,16 @@ __작품 리스트 창입니다.__<br><br>
 
 <img title="작품 디테일" src="https://user-images.githubusercontent.com/95990765/173964543-1e67868b-b2b7-4783-b466-be10030b30f8.png" width="40%" height="40%"></img><br>
 __작품 설명 창입니다. 작품 추가 설명 및 TTS 기능을 제공합니다.__<br><br>
+
+### Web Flow
+<img title="작품" src="https://user-images.githubusercontent.com/95990765/173964435-619a2e25-9b62-4258-ab54-26052adeb718.png" width="40%" height="40%"></img><br><br>
+
+<img title="안내" src="https://user-images.githubusercontent.com/95990765/173964440-95fa87c4-9eb8-438b-898f-a0bb8ff1b6dd.png" width="40%" height="40%"></img><br><br>
+
+<img title="소개" src="https://user-images.githubusercontent.com/95990765/173964445-8232b2f0-6f96-4934-9e48-131a8276bd35.png" width="40%" height="40%"></img><br><br>
+
+<img title="어드민" src="https://user-images.githubusercontent.com/95990765/173964426-2b5a999e-e3f2-45e2-b0b1-51f8825e5e19.png" width="20%" height="20%"></img><br>
+__어드민 페이지에서 연혁, 작품 데이터 처리가 가능합니다.__<br><br>
 
 
 ## 적용 기술
